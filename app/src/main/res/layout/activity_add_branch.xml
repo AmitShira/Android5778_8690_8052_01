@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context="com.example.amit.android5778_8690_8052_01.controller.AddBranchActivity">
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="161dp"
+        android:layout_height="75dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="71dp" />
 </android.support.constraint.ConstraintLayout>

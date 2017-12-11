@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Android5778_8690_8052_01.iml" filepath="$PROJECT_DIR$/Android5778_8690_8052_01.iml" />
+      <module fileurl="file://C:\Java\Android5778_8690_8052_01\Android5778_8690_8052_01.iml" filepath="C:\Java\Android5778_8690_8052_01\Android5778_8690_8052_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Java\Android5778_8690_8052_01\app\app.iml" filepath="C:\Java\Android5778_8690_8052_01\app\app.iml" />
     </modules>
   </component>
 </project>
