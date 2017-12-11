@@ -12,9 +12,8 @@ import android.widget.Toast;
 import com.example.amit.android5778_8690_8052_01.R;
 import com.example.amit.android5778_8690_8052_01.model.backend.DBManagerFactory;
 import com.example.amit.android5778_8690_8052_01.model.backend.ModelConst;
-import com.example.amit.android5778_8690_8052_01.model.entities.Car;
 
-public class AddCarActivity extends Activity {
+public class AddCarActivity extends Activity implements View.OnClickListener  {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,7 +49,7 @@ public class AddCarActivity extends Activity {
      * Auto-created on 2017-12-10 19:42:02 by Android Layout Finder
      * (http://www.buzzingandroid.com/tools/android-layout-finder)
      */
-    @Override
+     @Override
     public void onClick(View v) {
         if ( v == AddCar ) {
            addCar();
