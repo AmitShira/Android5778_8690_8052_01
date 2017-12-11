@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Android5778_8690_8052_01</string>
+    <string name="addCustomerButton">Add Customer</string>
+    <string name="addCarButton">Add Car</string>
+    <string name="addBranchButton">Add Branch</string>
+    <string name="addCarModelButton">Add CarModel</string>
+    <string name="showCustomerlistButton">Customer List</string>
+    <string name="showCarlistButton">Car List</string>
+    <string name="showBranchlistButton">Branch List</string>
+    <string name="showCarmodelList">Car-Model List</string>
 </resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.amit.android5778_8690_8052_01.controller.MainActivity">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/addCustomerButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"
+        android:text="Add Customer" />
+
+    <Button
+        android:id="@+id/addCarButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"
+        android:text="Add Car" />
+
+    <Button
+        android:id="@+id/addBranchButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"
+        android:text="Add Branch" />
+
+    <Button
+        android:id="@+id/addCarModelButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"
+        android:text="Add Car Model" />
+
+    <Button
+        android:id="@+id/showCustomerlistButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:layout_marginTop="70dp"
+        android:text="Show Customer List" />
+
+    <Button
+        android:id="@+id/showCarlistButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:text="Show Car List" />
+
+    <Button
+        android:id="@+id/showBranchlistButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:text="Show Branch List" />
+
+    <Button
+        android:id="@+id/showCarmodelList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:text="Show Car Model List" />
+
+</LinearLayout>
+</ScrollView>

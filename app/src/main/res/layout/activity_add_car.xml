@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.amit.android5778_8690_8052_01.controller.AddCarActivity">
+
+    <EditText
+        android:id="@+id/BranchNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Branch Number"
+        android:inputType="number"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <EditText
+        android:id="@+id/Kilometerage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Kilometerage"
+        app:layout_constraintRight_toRightOf="@+id/BranchNumber"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@+id/BranchNumber"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/BranchNumber"
+    />
+
+    <EditText
+        android:id="@+id/CarNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Car Number"
+        android:inputType="number"
+        app:layout_constraintRight_toRightOf="@+id/Kilometerage"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@+id/Kilometerage"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/Kilometerage"
+        tools:layout_constraintRight_creator="1" />
+
+    <EditText
+        android:id="@+id/ModelCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Model Code"
+        android:inputType="number"
+        app:layout_constraintRight_toRightOf="@+id/CarNumber"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@+id/CarNumber"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/CarNumber"
+        tools:layout_constraintRight_creator="1" />
+
+    <Button
+        android:id="@+id/AddCar"
+        android:layout_width="150dp"
+        android:layout_height="51dp"
+        android:text="Add Car"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="83dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+</android.support.constraint.ConstraintLayout>

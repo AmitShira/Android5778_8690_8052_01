@@ -1,7 +1,6 @@
 package com.example.amit.android5778_8690_8052_01.model.entities;
 
 
-import java.security.PrivateKey;
 import java.util.Date;
 
 public class Order {
@@ -29,9 +28,8 @@ public class Order {
         return Order_Status;
     }
 
-    public void setOrder_Status(boolean order_Status) {
-        Order_Status = order_Status;
-    }
+    public void setOrder_Status(boolean order_Status) {  Order_Status = order_Status;}
+
 
     public int getCar_Number() {
         return Car_Number;

@@ -12,14 +12,16 @@ import java.util.List;
 
 public interface DB_manager {// check the type of the functions
 
-    void addCustomer(ContentValues Customer);
-    void addModel(ContentValues Car_Model);
-    void addCar(ContentValues Car);
+    String addCustomer(ContentValues customer) throws Exception;
+    int addModel(ContentValues Car_Model);
+    int addCar(ContentValues Car);
+    int addBranch(ContentValues Branch);
     List<Branch> getBranchList();
     List<Customer> getCustomerList();
     List<Car_Model> getCarModelList();
     List<Car> getCarList();
-    boolean CustomerExist(ContentValues Customer);// if to is correct
+    boolean CustomerExist(String _id);// if to is correct
+
 
 
 }

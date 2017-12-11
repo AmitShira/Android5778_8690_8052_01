@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.amit.android5778_8690_8052_01.controller.AddCarActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="308dp"
+        android:layout_height="76dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="305dp"
+        android:layout_height="73dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteY="234dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="303dp"
+        android:layout_height="75dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteY="498dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="302dp"
+        android:layout_height="69dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteY="119dp"
+        tools:layout_editor_absoluteX="22dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="51dp"
+        android:text="Button"
+        tools:layout_editor_absoluteY="816dp"
+        tools:layout_editor_absoluteX="304dp" />
+</android.support.constraint.ConstraintLayout>

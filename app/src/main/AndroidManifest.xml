@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".controller.AddCustomerActivity" android:label="@string/addCustomerButton" />
+        <activity android:name=".controller.AddCarActivity" android:label="@string/addCarButton" />
+        <activity android:name=".controller.AddBranchActivity" android:label="@string/addBranchButton"/>
+        <activity android:name=".controller.AddCarModelActivity" android:label="@string/addCarModelButton" />
+        <activity android:name=".controller.ShowCustomerlistActivity" android:label="@string/showCustomerlistButton" />
+        <activity android:name=".controller.ShowCarlistActivity" android:label="@string/showCarlistButton" />
+        <activity android:name=".controller.ShowBranchlistActivity" android:label="@string/showBranchlistButton"/>
+        <activity android:name=".controller.ShowCarmodelListActivity" android:label="@string/showCarmodelList"></activity>
     </application>
 
 </manifest>
