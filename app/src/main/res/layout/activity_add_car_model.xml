@@ -6,4 +6,12 @@
     android:layout_height="match_parent"
     tools:context="com.example.amit.android5778_8690_8052_01.controller.AddCarModelActivity">
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cheking forgithub"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="58dp"
+        />
 </android.support.constraint.ConstraintLayout>
